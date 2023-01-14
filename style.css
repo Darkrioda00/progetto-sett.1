@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 8em;
+    font-family: 'Spectral', serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 50px;
+    letter-spacing: -10px;
+    font-weight: 300;
+
+}
+p{
+    font-size: 25px;
+    font-weight: 350;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0px;
+    line-height: 25px;
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav{
+    background-color: #ffc017;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    border-bottom: 1px solid #191919;
+}
+
+.nav .logo{
+    margin-left: 75px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    font-size: 14px;
+    margin-right: 75px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #191919;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 30px;
+}
+li button{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #191919;
+    display: flex;
+    align-items: flex-start;
+    /* font-size: 14px; */
+}
+
+.hero-section{
+    background-color: #ffc017;
+    height: 500px;
+    border-bottom: 1px solid #191919;
+}
+.sinistra{
+    margin-left: 75px;
+    float: left;
+}
+.destra{
+   float: right;
+   z-index: 0;
+}
+.start-reading{
+    background-color: #191919;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    width: 30%;
+    line-height: 30px;
+    border: #191919;
+    margin-top: 5%;
+}
+main{
+    margin:30px 75px;
+}
+.titolo-main{
+    display: flex;
+    align-items: center;
+}
+.trending{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
