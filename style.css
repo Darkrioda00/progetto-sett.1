@@ -18,6 +18,9 @@ h2{
     font-family: 'Roboto', sans-serif;
     margin-bottom: 8px;
 }
+h3{
+    margin: 5px 0px;
+}
 p{
     font-size: 25px;
     font-weight: 350;
@@ -60,8 +63,8 @@ li button{
     border-radius: 10px;
     color: white;
     background-color: #191919;
-    display: flex;
-    align-items: flex-start;
+    /* display: flex;
+    align-items: flex-start; */
     /* font-size: 14px; */
 }
 
@@ -106,7 +109,6 @@ main{
     letter-spacing: 1px;
 }
 .freccia{
-    border: 1px solid red;
     margin-right: 10px;
 }
 
@@ -166,10 +168,13 @@ main{
 }
 .corpo{
     margin:50px 75px;
+    
+
 }
 aside{
-    float: right;
     width: 400px;
+    height: 4000px;
+    float: right;
 }
 .parte-sopra ul{
     list-style: none;
@@ -207,4 +212,46 @@ aside{
 .sezione-link{
     position: sticky;
     top: 107px;
+}
+section{
+    font-family: 'Roboto', sans-serif;
+}
+.what{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+}
+img{
+    width: 200px;
+    aspect-ratio: auto 200 / 134;
+    height: 134px;
+    vertical-align: middle;
+
+}
+.article{
+    display: flex;
+    margin-bottom: 50px;
+}
+.bo{
+    width: 60%;
+}
+.tag{
+    border-radius: 100px;
+    padding: 2px 8px;
+    font-size: 13px;
+    color: rgb(117, 117, 117);
+    line-height: 20px;
+    background-color: rgb(242, 242, 242);
+    cursor: pointer;
+    margin-left: 5px;
+}
+.tag:hover{
+    background-color: rgb(230, 230, 230);
+}
+.bookmark{
+    margin-right: 40px;
+}
+.etichetta{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
 }
